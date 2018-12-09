@@ -30,3 +30,12 @@
     transform: rotate(360deg);
   }
 }
+
+.contact-data {
+  width: 650px;
+  margin: 25px 0px;
+  border: 1px solid white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  font-family: 'Lato', sans-serif;
+}
