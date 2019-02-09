@@ -1,0 +1,83 @@
+.navbar-container {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    min-width: 100%;
+    z-index: 10;
+    height: 40px;
+    width: 100vw;
+    background: #8265a7;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-family: 'Fira Mono', monospace;
+}
+
+.nav-left {
+    /* background: grey; */
+    flex: 50%;
+}
+
+.logo-area {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    animation: App-logo-spin infinite 20s linear;
+    height: 15px;
+    width: auto;
+    margin-right: 5px;
+}
+
+/* @keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+} */
+
+.logo {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+}
+
+.logo:hover {
+    color: #2a1b3d;
+    font-weight: 900;
+}
+
+.nav-right {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 50%;
+    width: 200px;
+    margin-right: 15px;
+}
+
+.nav-right a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    margin: 0 5px;
+    font-family: "Barlow Condensed", sans-serif;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 0 5px;
+}
+
+.nav-right a:hover {
+    color: #2a1b3d;
+}
+

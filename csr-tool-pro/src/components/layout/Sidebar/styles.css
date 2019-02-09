@@ -1,0 +1,28 @@
+.sidebar-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    text-align: left;
+    width: 130px;
+    height: 100%;
+    min-height: 100vh;
+    background: #2a1b3d;
+    /* background: #d83f87; */
+    font-family: "Barlow Condensed", sans-serif;
+    color: white;
+    position: fixed;
+    overflow-y: hidden;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover {
+    color: #d83f87;
+}
