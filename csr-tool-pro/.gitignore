@@ -21,3 +21,42 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+../.CFUserTextEncoding
+../.DS_Store
+../.Trash/
+../.atom/
+../.bash_history
+../.bash_sessions/
+../.cache/
+../.config/
+../.cups/
+../.hyper.js
+../.hyper_plugins/
+../.local/
+../.mono/
+../.node_repl_history
+../.npm/
+../.quokka/
+../.sip_v1/
+../.viminfo
+../.vscode/
+../.yarnrc
+../.zoomus/
+../Applications/
+../Desktop/
+../Documents/
+../Downloads/
+../Intro-To-Relational-Databases.db
+../L&P SVG/
+../Lambda School/
+../Library/
+../Movies/
+../Music/
+../Parallels/
+../Pictures/
+../Public/
+../Udemy JavaScript Course/
+../animals/
+../express-handle-errors/
+../server.j
