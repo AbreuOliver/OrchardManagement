@@ -4,6 +4,7 @@ import './App.css';
 
 import Navbar from "./components/layout/Navbar/index";
 import Sidebar from "./components/layout/Sidebar/index";
+import Dashboard from "./components/dashboard/Dashboard.js";
 import SignIn from "./components/auth/SignIn";
 import SignUp from "./components/auth/SignUp";
 import BookSeat from "./components/projects/BookSeat";
@@ -14,14 +15,16 @@ class App extends Component {
       <BrowserRouter>
         <div className="App">
           <Navbar />
-          <Sidebar />
-          <Switch>
-            {/* <Route exact path="/" component={Dashboard} /> */}
-            {/* <Route path="/general-public" component={GeneralPublic} /> */}
-            <Route path="/sign-in" component={SignIn} />
-            <Route path="/sign-up" component={SignUp} />
-            <Route path='/book' component={BookSeat} />
-          </Switch>
+          <div className="App-divided">
+            <Sidebar className="sidebar"/>
+            <Switch>
+              <Route exact path="/" component={Dashboard} />
+              {/* <Route path="/general-public" component={GeneralPublic} /> */}
+              <Route path="/sign-in" component={SignIn} />
+              <Route path="/sign-up" component={SignUp} />
+              <Route path='/reserve' component={BookSeat} />
+            </Switch>
+          </div>
         </div>
       </BrowserRouter>
     );

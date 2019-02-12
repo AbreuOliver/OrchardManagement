@@ -6,7 +6,7 @@
     z-index: 10;
     height: 40px;
     width: 100vw;
-    background: #8265a7;
+    background: linear-gradient(to right, #2a1b3d, #8265a7);
     text-decoration: none;
     display: flex;
     flex-direction: row;
@@ -46,12 +46,13 @@
 
 .logo {
     text-decoration: none;
+    font-size: 20px;
     color: white;
     font-weight: 900;
 }
 
 .logo:hover {
-    color: #2a1b3d;
+
     font-weight: 900;
 }
 
@@ -81,3 +82,59 @@
     color: #2a1b3d;
 }
 
+ul, li {
+    list-style-type: none;
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: translate(65%, 120%);
+    width: 530px;
+    height: 175px;
+    margin-left: 40px;
+    border: 1px solid #979797;
+    background: #FFFFFF;
+    z-index: 10;
+}
+
+
+
+.modal {
+    /* background: ##44318d; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    position: absolute;
+    float: left;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: auto;
+    height: 300px;
+    width: 800px;
+}
+
+.modal:focus {
+    outline: none;
+}
+
+.overlay {
+    background-color: 
+        rgba(207, 207, 207, 0.80)
+        ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.modal-buttons {
+    display: flex;
+    flex-direction: row;
+}
